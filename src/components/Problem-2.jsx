@@ -54,7 +54,7 @@ const Problem2 = () => {
 						className='btn btn-lg btn-outline-primary'
 						type='button'
 						class='btn btn-primary'
-						onClick={handleShow}
+						onClick={() => handleShow(null)}
 					>
 						All Contacts
 					</button>
